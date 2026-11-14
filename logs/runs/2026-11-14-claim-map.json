@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "SRC-001",
+    "claim_id": "SRC-001-C01",
+    "source_section": "What are bonds?",
+    "concept_tag": "bond-definition"
+  },
+  {
+    "source_id": "SRC-001",
+    "claim_id": "SRC-001-C02",
+    "source_section": "What are the benefits and risks of bonds?",
+    "concept_tag": "bond-risks"
+  },
+  {
+    "source_id": "SRC-002",
+    "claim_id": "SRC-002-C01",
+    "source_section": "Bonds and Notes",
+    "concept_tag": "coupon-vs-ytm"
+  },
+  {
+    "source_id": "SRC-002",
+    "claim_id": "SRC-002-C02",
+    "source_section": "Bonds and Notes",
+    "concept_tag": "premium-discount"
+  },
+  {
+    "source_id": "SRC-003",
+    "claim_id": "SRC-003-C01",
+    "source_section": "What is a corporate bond?",
+    "concept_tag": "corporate-bond"
+  },
+  {
+    "source_id": "SRC-003",
+    "claim_id": "SRC-003-C02",
+    "source_section": "What is a corporate bond?",
+    "concept_tag": "default-risk"
+  },
+  {
+    "source_id": "SRC-004",
+    "claim_id": "SRC-004-C01",
+    "source_section": "Why do interest rates affect bonds?",
+    "concept_tag": "inverse-pricing"
+  },
+  {
+    "source_id": "SRC-004",
+    "claim_id": "SRC-004-C02",
+    "source_section": "Are rising rates always bad for bonds?",
+    "concept_tag": "reinvestment"
+  },
+  {
+    "source_id": "SRC-005",
+    "claim_id": "SRC-005-C01",
+    "source_section": "What is duration?",
+    "concept_tag": "effective-duration"
+  },
+  {
+    "source_id": "SRC-005",
+    "claim_id": "SRC-005-C02",
+    "source_section": "What are the limitations of duration?",
+    "concept_tag": "duration-approximation"
+  },
+  {
+    "source_id": "SRC-006",
+    "claim_id": "SRC-006-C01",
+    "source_section": "Pricing a Bond in Steps",
+    "concept_tag": "pv-bond"
+  },
+  {
+    "source_id": "SRC-006",
+    "claim_id": "SRC-006-C02",
+    "source_section": "Determining Bond Yield Using an Equation",
+    "concept_tag": "ytm-equation"
+  }
+]

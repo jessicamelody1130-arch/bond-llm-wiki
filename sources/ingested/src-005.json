@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-005",
+  "input_type": "curated_source_notes",
+  "source_url": "https://www.pimco.com/us/en/resources/education/bonds-102-the-importance-of-duration-in-bond-investing",
+  "input_sha256": "b84e05ba307ae7ed3f1516a8d4ef1615edb5e3436addd0fc92c8eaad2ddcd239",
+  "full_original_text_acquired": false,
+  "claims": [
+    {
+      "claim_id": "SRC-005-C01",
+      "source_section": "What is duration?",
+      "concept_tag": "effective-duration",
+      "paraphrase_zh": "PIMCO 將 Duration 用來衡量債券價格對利率變動的敏感度；在該篇的例示語境中，通常指 Effective Duration。",
+      "scope_note": "Effective 不等於 Macaulay 或 Modified；禁止直接互換公式。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    },
+    {
+      "claim_id": "SRC-005-C02",
+      "source_section": "What are the limitations of duration?",
+      "concept_tag": "duration-approximation",
+      "paraphrase_zh": "PIMCO 提醒 Duration 不是債券風險的完整評估指標：例如它不反映發行人的信用品質，投資組合 Duration 也可能隨時間及利率變化而改變。",
+      "scope_note": "網頁並未在此處完整推導凸性或大幅利率變動的近似誤差，不能把那些細節歸給此節。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    }
+  ],
+  "claimed_sections": [
+    "What are the limitations of duration?",
+    "What is duration?"
+  ],
+  "validation_scope": "local_integrity_only; semantic assertions manually spot-checked against cited public sections"
+}

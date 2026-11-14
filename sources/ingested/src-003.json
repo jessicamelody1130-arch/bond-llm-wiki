@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-003",
+  "input_type": "curated_source_notes",
+  "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+  "input_sha256": "127097afd0cb4e4c10de22962ec85937ea4e38af9b6ae6e6e2bf17b498420702",
+  "full_original_text_acquired": false,
+  "claims": [
+    {
+      "claim_id": "SRC-003-C01",
+      "source_section": "What is a corporate bond?",
+      "concept_tag": "corporate-bond",
+      "paraphrase_zh": "公司債代表企業對投資人的債務承諾，通常按約定支付利息、在到期時歸還本金；公司債持有人不因此取得公司股權。",
+      "scope_note": "注意「通常」：債券條款多樣，未必每一檔均為固定票息。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    },
+    {
+      "claim_id": "SRC-003-C02",
+      "source_section": "What is a corporate bond?",
+      "concept_tag": "default-risk",
+      "paraphrase_zh": "公司債存在違約風險：若發行公司不能依債券契約如期支付利息或到期本金，投資人的預期現金流就可能無法完整實現，因此要評估公司的信用品質。",
+      "scope_note": "適用公司債風險教學。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    }
+  ],
+  "claimed_sections": [
+    "What is a corporate bond?"
+  ],
+  "validation_scope": "local_integrity_only; semantic assertions manually spot-checked against cited public sections"
+}

@@ -1,0 +1,51 @@
+{
+  "executed_at": "2026-11-14T09:09:18.522770+00:00",
+  "mode": "locally_saved_html",
+  "parsed_sources": 0,
+  "minimum_required": 5,
+  "gate_a_pass": false,
+  "provenance_verified": false,
+  "warning": "Successful local parsing alone does not prove HTML is the original source. Compare headings/content to source website.",
+  "results": [
+    {
+      "id": "SRC-001",
+      "status": "FAIL",
+      "reason": "ValueError: Synthetic test fixture is not eligible as an original source"
+    },
+    {
+      "id": "SRC-002",
+      "status": "FAIL",
+      "reason": "ValueError: Synthetic test fixture is not eligible as an original source"
+    },
+    {
+      "id": "SRC-003",
+      "status": "FAIL",
+      "reason": "ValueError: Synthetic test fixture is not eligible as an original source"
+    },
+    {
+      "id": "SRC-004",
+      "status": "FAIL",
+      "reason": "ValueError: Synthetic test fixture is not eligible as an original source"
+    },
+    {
+      "id": "SRC-005",
+      "status": "FAIL",
+      "reason": "ValueError: Synthetic test fixture is not eligible as an original source"
+    },
+    {
+      "id": "SRC-006",
+      "status": "FAIL",
+      "reason": "ValueError: Synthetic test fixture is not eligible as an original source"
+    },
+    {
+      "id": "SRC-007",
+      "status": "SKIP",
+      "reason": "HTML source file not provided"
+    },
+    {
+      "id": "SRC-008",
+      "status": "SKIP",
+      "reason": "HTML source file not provided"
+    }
+  ]
+}

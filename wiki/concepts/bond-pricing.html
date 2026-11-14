@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>bond-pricing | Bond LLM Wiki</title><link rel="stylesheet" href="../../site.css"></head><body><header><a href="../../index.html">專案首頁</a><a href="../../wiki/">Wiki 知識庫</a><a href="../../slides/">HTML 教學簡報</a></header><main><hr />
+<h2>title: &quot;債券價格與現金流折現&quot;
+topic_id: bond-pricing
+status: validated_for_wiki_draft
+source_ids: [SRC-002, SRC-006]
+last_checked_at: &quot;2026-11-14&quot;</h2>
+<h1>債券價格與現金流折現</h1>
+<h2>定價邏輯</h2>
+<p>固定票息債券的理論價格，是未來每期票息及到期本金折現到今天的現值。這是現金流折現（Discounted Cash Flow）應用。[SRC-006: Determining Bond Yield Using an Equation]</p>
+<h2>公式與假設</h2>
+<p>假設每年付息 <code>m</code> 次、剩餘 <code>N</code> 期、面額 <code>F</code>、年票面利率 <code>c</code>、名目年 YTM <code>y</code>，且每期折現率固定為 <code>r=y/m</code>：</p>
+<p><code>C=F*c/m</code></p>
+<p><code>P=sum_{t=1}^{N} C/(1+r)^t + F/(1+r)^N</code></p>
+<p>等價於 <code>P=C*[1-(1+r)^(-N)]/r+F/(1+r)^N</code>（<code>r != 0</code>）；當 <code>r=0</code>，<code>P=CN+F</code>。[SRC-006]</p>
+<p>這裡假設現金流固定、折現率相同、估值時間為付息日（不計應計利息），價格是簡化的理論全價。實務債券的報價、結算日、應計利息與不同殖利率慣例會影響實際價格。[SRC-002: Bonds and Notes]</p>
+<h2>溢價與折價</h2>
+<p>在其他條件一致、正票息、固定現金流與相同付息口徑下，若 <code>y&lt;c</code> 則價格通常高於面額；<code>y=c</code> 平價；<code>y&gt;c</code> 折價。[SRC-002: Bonds and Notes] [SRC-006: Relationship of Yield to Maturity and Coupon Rate]</p>
+<h2>來源追溯</h2>
+<ul>
+<li><a href="../sources/src-002.html">SRC-002</a></li>
+<li><a href="../sources/src-006.html">SRC-006</a></li>
+</ul>
+</main></body></html>

@@ -1,0 +1,73 @@
+{
+  "run_at": "2026-11-14T09:02:25.826597+00:00",
+  "mode": "fixtures",
+  "source_count": 6,
+  "passed": 6,
+  "required": 5,
+  "original_source_ingested_count": 0,
+  "gate_a_pass": true,
+  "actual_original_ingest_gate_pass": false,
+  "warning": "Fixture-mode pass only demonstrates the parser; it does not indicate actual original sources were retrieved.",
+  "results": [
+    {
+      "id": "SRC-001",
+      "status": "PASS",
+      "mode": "fixtures",
+      "effective_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "word_count": 680,
+      "paragraph_count": 5,
+      "sha256_raw": "bc8d2bf0c943d870ed76a178beaee8b472c96c13bb7ef7d59b23afa9540f5ecf",
+      "archive": "raw/private-fixture-archive/src-001.json"
+    },
+    {
+      "id": "SRC-002",
+      "status": "PASS",
+      "mode": "fixtures",
+      "effective_url": "https://treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "word_count": 680,
+      "paragraph_count": 5,
+      "sha256_raw": "30511a0884fe567810c5fc443516455d90e592e94ccf536234ebcf8bbc65d71c",
+      "archive": "raw/private-fixture-archive/src-002.json"
+    },
+    {
+      "id": "SRC-003",
+      "status": "PASS",
+      "mode": "fixtures",
+      "effective_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+      "word_count": 680,
+      "paragraph_count": 5,
+      "sha256_raw": "db27b385e5ab8c49591c40a2ff50f2464351513abf7d3678b54c1f113ecff51a",
+      "archive": "raw/private-fixture-archive/src-003.json"
+    },
+    {
+      "id": "SRC-004",
+      "status": "PASS",
+      "mode": "fixtures",
+      "effective_url": "https://www.pimco.com/us/en/resources/education/bonds-102-understanding-how-interest-rates-affect-bond-performance",
+      "word_count": 680,
+      "paragraph_count": 5,
+      "sha256_raw": "348f18f48a7a81d9a52e81770ac09b5f96b6861cf4587292a9bf65d341eb986b",
+      "archive": "raw/private-fixture-archive/src-004.json"
+    },
+    {
+      "id": "SRC-005",
+      "status": "PASS",
+      "mode": "fixtures",
+      "effective_url": "https://www.pimco.com/us/en/resources/education/bonds-102-the-importance-of-duration-in-bond-investing",
+      "word_count": 680,
+      "paragraph_count": 5,
+      "sha256_raw": "49a5723b7830ec574d0a460cfbcac5082d89bbb0639975f8ae79aacb93e8a00f",
+      "archive": "raw/private-fixture-archive/src-005.json"
+    },
+    {
+      "id": "SRC-006",
+      "status": "PASS",
+      "mode": "fixtures",
+      "effective_url": "https://openstax.org/books/principles-finance/pages/10-2-bond-valuation",
+      "word_count": 680,
+      "paragraph_count": 5,
+      "sha256_raw": "feafd4c4844ad49ad2c1fae4cc35314b276bb26183b3f349c77d69709ce97545",
+      "archive": "raw/private-fixture-archive/src-006.json"
+    }
+  ]
+}

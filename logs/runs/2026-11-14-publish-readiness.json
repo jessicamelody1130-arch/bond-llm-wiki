@@ -1,0 +1,133 @@
+{
+  "stage": "Stage 5 pre-deployment link check",
+  "status": "PASS",
+  "checks": [
+    {
+      "page": "index.html",
+      "local_links": [
+        [
+          "site.css",
+          true
+        ],
+        [
+          "index.html",
+          true
+        ],
+        [
+          "wiki/",
+          true
+        ],
+        [
+          "slides/",
+          true
+        ],
+        [
+          "wiki/",
+          true
+        ],
+        [
+          "slides/",
+          true
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "page": "wiki/index.html",
+      "local_links": [
+        [
+          "../site.css",
+          true
+        ],
+        [
+          "../index.html",
+          true
+        ],
+        [
+          "../wiki/",
+          true
+        ],
+        [
+          "../slides/",
+          true
+        ],
+        [
+          "concepts/bond-basics.html",
+          true
+        ],
+        [
+          "concepts/bond-pricing.html",
+          true
+        ],
+        [
+          "concepts/bond-yields.html",
+          true
+        ],
+        [
+          "concepts/interest-rate-risk.html",
+          true
+        ],
+        [
+          "concepts/duration.html",
+          true
+        ],
+        [
+          "concepts/numeric-examples.html",
+          true
+        ],
+        [
+          "sources/src-001.html",
+          true
+        ],
+        [
+          "sources/src-002.html",
+          true
+        ],
+        [
+          "sources/src-003.html",
+          true
+        ],
+        [
+          "sources/src-004.html",
+          true
+        ],
+        [
+          "sources/src-005.html",
+          true
+        ],
+        [
+          "sources/src-006.html",
+          true
+        ],
+        [
+          "sources/src-007.html",
+          true
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "page": "slides/index.html",
+      "local_links": [
+        [
+          "style.css",
+          true
+        ],
+        [
+          "../wiki/",
+          true
+        ],
+        [
+          "../sources/manifest.json",
+          true
+        ],
+        [
+          "script.js",
+          true
+        ]
+      ],
+      "pass": true
+    }
+  ],
+  "note": "Static link check only; GitHub Pages not deployed and end-user browser interactions unverified."
+}

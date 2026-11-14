@@ -1,0 +1,163 @@
+{
+  "project": "Bond Pricing & Interest Rate Risk",
+  "generated_at": "2026-11-14",
+  "ingest_method": "web-readable page to structured extract (not local full-text acquisition)",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "title": "Bonds - FAQs",
+      "publisher": "U.S. SEC / Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-001.md",
+      "sections": [
+        "What are bonds?",
+        "What are the benefits and risks of bonds?"
+      ],
+      "topics": [
+        "bond-basics",
+        "interest-rate-risk"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Web source inspected; only source card and original-language-independent summary saved; no full-text snapshot."
+    },
+    {
+      "id": "SRC-002",
+      "title": "Understanding Pricing and Interest Rates",
+      "publisher": "U.S. Department of the Treasury / TreasuryDirect",
+      "url": "https://treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-002.md",
+      "sections": [
+        "Bonds and Notes"
+      ],
+      "topics": [
+        "bond-pricing",
+        "bond-yields"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Web source inspected; only source card and original-language-independent summary saved; no full-text snapshot."
+    },
+    {
+      "id": "SRC-003",
+      "title": "What Are Corporate Bonds?",
+      "publisher": "U.S. SEC / Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-003.md",
+      "sections": [
+        "What are the financial terms of a bond?",
+        "What is a corporate bond?"
+      ],
+      "topics": [
+        "bond-basics",
+        "bond-yields"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Web source inspected; only source card and original-language-independent summary saved; no full-text snapshot."
+    },
+    {
+      "id": "SRC-004",
+      "title": "Bonds 102: Understanding how Interest Rates Affect Bond Performance",
+      "publisher": "PIMCO",
+      "url": "https://www.pimco.com/us/en/resources/education/bonds-102-understanding-how-interest-rates-affect-bond-performance",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-004.md",
+      "sections": [
+        "Why do interest rates affect bonds?",
+        "Are rising rates always bad for bonds?"
+      ],
+      "topics": [
+        "interest-rate-risk"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Web source inspected; only source card and original-language-independent summary saved; no full-text snapshot."
+    },
+    {
+      "id": "SRC-005",
+      "title": "Bonds 102: The Importance of Duration in Bond Investing",
+      "publisher": "PIMCO",
+      "url": "https://www.pimco.com/us/en/resources/education/bonds-102-the-importance-of-duration-in-bond-investing",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-005.md",
+      "sections": [
+        "What is duration?",
+        "limitations of duration",
+        "What are the limitations of duration?"
+      ],
+      "topics": [
+        "duration"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Web source inspected; only source card and original-language-independent summary saved; no full-text snapshot."
+    },
+    {
+      "id": "SRC-006",
+      "title": "10.2 Bond Valuation – Principles of Finance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/principles-finance/pages/10-2-bond-valuation",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-006.md",
+      "sections": [
+        "Determining Bond Yield Using an Equation",
+        "The Relationship of Yield to Maturity and Coupon Rate to Bond Prices",
+        "Pricing a Bond in Steps"
+      ],
+      "topics": [
+        "bond-pricing",
+        "bond-yields"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Web source inspected; only source card and original-language-independent summary saved; no full-text snapshot."
+    },
+    {
+      "id": "SRC-007",
+      "title": "Yield-Based Bond Duration Measures and Properties",
+      "publisher": "CFA Institute",
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/yield-based-bond-duration-measures-and-properties",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-007.md",
+      "sections": [
+        "Learning Outcomes",
+        "Macaulay duration and modified duration"
+      ],
+      "topics": [
+        "duration"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Web source inspected; only source card and original-language-independent summary saved; no full-text snapshot."
+    },
+    {
+      "id": "SRC-008",
+      "title": "Current Yield",
+      "publisher": "U.S. SEC / Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/current-yield",
+      "accessed_at": "2026-11-14",
+      "content_type": "webpage",
+      "local_path": "wiki/sources/src-008.md",
+      "sections": [
+        "Current Yield (glossary definition)"
+      ],
+      "topics": [
+        "bond-yields"
+      ],
+      "ingest_status": "structured_extract",
+      "validation_status": "reviewed_summary_not_full_text",
+      "notes": "Source added after detecting that initial reference SRC-003 did not directly establish Current Yield definition. Source reviewed from public glossary; no full text copied."
+    }
+  ]
+}

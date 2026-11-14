@@ -1,0 +1,125 @@
+{
+  "run_date": "2026-11-14",
+  "method": "Read wiki/index.md then topic Markdown then source manifest/cards",
+  "questions": [
+    {
+      "query_id": "Q1",
+      "question": "債券價格如何決定？",
+      "retrieved": [
+        {
+          "topic": "bond-pricing",
+          "wiki_path": "wiki/concepts/bond-pricing.md",
+          "source_ids": [
+            "SRC-002",
+            "SRC-006"
+          ],
+          "sections": [
+            "定價邏輯",
+            "公式與假設",
+            "溢價與折價",
+            "來源追溯"
+          ],
+          "status": "validated_for_wiki_draft"
+        },
+        {
+          "topic": "numeric-examples",
+          "wiki_path": "wiki/concepts/numeric-examples.md",
+          "source_ids": [
+            "SRC-006",
+            "SRC-007"
+          ],
+          "sections": [
+            "可重現教學案例（依 Wiki 定價公式自行計算）",
+            "來源追溯"
+          ],
+          "status": "validated_for_wiki_draft"
+        }
+      ],
+      "source_ids": [
+        "SRC-002",
+        "SRC-006",
+        "SRC-007"
+      ],
+      "result": "PASS",
+      "issues": [],
+      "limitation": "結構化來源卡與 Wiki 草稿，不等於已對完整原文完成逐條語意驗證"
+    },
+    {
+      "query_id": "Q2",
+      "question": "YTM 上升時價格為什麼下降？",
+      "retrieved": [
+        {
+          "topic": "interest-rate-risk",
+          "wiki_path": "wiki/concepts/interest-rate-risk.md",
+          "source_ids": [
+            "SRC-001",
+            "SRC-002",
+            "SRC-004",
+            "SRC-006"
+          ],
+          "sections": [
+            "為什麼價格反向變動？",
+            "可以檢驗的方向",
+            "風險限制",
+            "來源追溯"
+          ],
+          "status": "validated_for_wiki_draft"
+        },
+        {
+          "topic": "bond-pricing",
+          "wiki_path": "wiki/concepts/bond-pricing.md",
+          "source_ids": [
+            "SRC-002",
+            "SRC-006"
+          ],
+          "sections": [
+            "定價邏輯",
+            "公式與假設",
+            "溢價與折價",
+            "來源追溯"
+          ],
+          "status": "validated_for_wiki_draft"
+        }
+      ],
+      "source_ids": [
+        "SRC-001",
+        "SRC-002",
+        "SRC-004",
+        "SRC-006"
+      ],
+      "result": "PASS",
+      "issues": [],
+      "limitation": "結構化來源卡與 Wiki 草稿，不等於已對完整原文完成逐條語意驗證"
+    },
+    {
+      "query_id": "Q3",
+      "question": "Macaulay 與 Modified Duration 有何差異？",
+      "retrieved": [
+        {
+          "topic": "duration",
+          "wiki_path": "wiki/concepts/duration.md",
+          "source_ids": [
+            "SRC-005",
+            "SRC-007"
+          ],
+          "sections": [
+            "兩種 Duration 不同",
+            "公式",
+            "限制",
+            "來源追溯"
+          ],
+          "status": "validated_for_wiki_draft"
+        }
+      ],
+      "source_ids": [
+        "SRC-005",
+        "SRC-007"
+      ],
+      "result": "PASS",
+      "issues": [],
+      "limitation": "結構化來源卡與 Wiki 草稿，不等於已對完整原文完成逐條語意驗證"
+    }
+  ],
+  "passed": 3,
+  "failed": 0
+}

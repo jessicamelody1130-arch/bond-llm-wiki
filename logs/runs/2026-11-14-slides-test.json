@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-14",
+  "stage": "Gate C static + browser DOM smoke test",
+  "passed": 6,
+  "failed": 1,
+  "checks": [
+    {
+      "name": "10_slides",
+      "result": "PASS",
+      "detail": "10"
+    },
+    {
+      "name": "every_slide_source_topics",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "required_dom_elements",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "local_assets",
+      "result": "PASS",
+      "detail": "['style.css', 'script.js']"
+    },
+    {
+      "name": "wiki_topics_exist",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "js_syntax",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "chromium_dom_loaded",
+      "result": "FAIL",
+      "detail": "Command '['chromium', '--headless', '--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage', '--virtual-time-budget=2000', '--dump-dom', 'file:///mnt/data/bond-llm-wiki/slides/index.html']' timed out after 25 seconds"
+    }
+  ],
+  "remaining": [
+    "Manual keyboard navigation and quiz click-flow not verified by this smoke test.",
+    "Source semantic review remains incomplete.",
+    "GitHub Pages deployment not performed."
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-11-14",
+  "scope": "Gate A structural / Gate B numerical smoke tests only",
+  "source_cards": 8,
+  "concept_pages": 6,
+  "passed": 54,
+  "failed": 0,
+  "warnings": [
+    "Web full-text snapshots were not saved; claims require source-semantic spot check before final publication.",
+    "External link live availability is confirmed through web browsing, not locally reproducible by this script.",
+    "Current Yield source was augmented with SEC glossary SRC-008; source-semantic spot checks are still narrower than a full editorial audit."
+  ],
+  "example": {
+    "face_value": 1000,
+    "coupon_rate": 0.04,
+    "payments_per_year": 1,
+    "remaining_periods": 5,
+    "prices": {
+      "3%": 1045.7970718719453,
+      "4%": 999.9999999999999,
+      "5%": 956.7052332936915
+    },
+    "macaulay_duration_years": 4.629895224256853,
+    "modified_duration": 4.451822331016205
+  },
+  "checks": [
+    {
+      "check": "at_least_5_distinct_sources",
+      "result": "PASS",
+      "detail": "count=8"
+    },
+    {
+      "check": "unique_source_ids",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-001",
+      "result": "PASS",
+      "detail": "Bonds - FAQs"
+    },
+    {
+      "check": "source_card_SRC-001",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-001",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-002",
+      "result": "PASS",
+      "detail": "Understanding Pricing and Interest Rates"
+    },
+    {
+      "check": "source_card_SRC-002",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-002",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-003",
+      "result": "PASS",
+      "detail": "What Are Corporate Bonds?"
+    },
+    {
+      "check": "source_card_SRC-003",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-003",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-004",
+      "result": "PASS",
+      "detail": "Bonds 102: Understanding how Interest Rates Affect Bond Performance"
+    },
+    {
+      "check": "source_card_SRC-004",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-004",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-005",
+      "result": "PASS",
+      "detail": "Bonds 102: The Importance of Duration in Bond Investing"
+    },
+    {
+      "check": "source_card_SRC-005",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-005",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-006",
+      "result": "PASS",
+      "detail": "10.2 Bond Valuation – Principles of Finance"
+    },
+    {
+      "check": "source_card_SRC-006",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-006",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-007",
+      "result": "PASS",
+      "detail": "Yield-Based Bond Duration Measures and Properties"
+    },
+    {
+      "check": "source_card_SRC-007",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-007",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "metadata_SRC-008",
+      "result": "PASS",
+      "detail": "Current Yield"
+    },
+    {
+      "check": "source_card_SRC-008",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_location_SRC-008",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "concept_count",
+      "result": "PASS",
+      "detail": "6"
+    },
+    {
+      "check": "frontmatter_bond-yields",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs_bond-yields",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "indexed_bond-yields",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_card_links_bond-yields",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "frontmatter_numeric-examples",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs_numeric-examples",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "indexed_numeric-examples",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_card_links_numeric-examples",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "frontmatter_bond-pricing",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs_bond-pricing",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "indexed_bond-pricing",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_card_links_bond-pricing",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "frontmatter_interest-rate-risk",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs_interest-rate-risk",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "indexed_interest-rate-risk",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_card_links_interest-rate-risk",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "frontmatter_duration",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs_duration",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "indexed_duration",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_card_links_duration",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "frontmatter_bond-basics",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_refs_bond-basics",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "indexed_bond-basics",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_card_links_bond-basics",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "price_yield_monotonic",
+      "result": "PASS",
+      "detail": "1045.7971>1000.0000>956.7052"
+    },
+    {
+      "check": "par_at_coupon_rate",
+      "result": "PASS",
+      "detail": "1000.000000"
+    },
+    {
+      "check": "duration_consistency",
+      "result": "PASS",
+      "detail": "mac=4.62989522,modified=4.45182233"
+    }
+  ],
+  "errors": []
+}

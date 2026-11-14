@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-006",
+  "source_title": "10.2 Bond Valuation – Principles of Finance",
+  "source_url": "https://openstax.org/books/principles-finance/pages/10-2-bond-valuation",
+  "source_publisher": "OpenStax",
+  "review_date": "2026-11-14",
+  "input_type": "curated_source_notes",
+  "full_original_text_acquired": false,
+  "web_source_checked": true,
+  "claim_records": [
+    {
+      "claim_id": "SRC-006-C01",
+      "source_section": "Pricing a Bond in Steps",
+      "concept_tag": "pv-bond",
+      "paraphrase_zh": "標準息票債券價值可拆為每期票息現值總和，以及到期本金現值；折現率和現金流的付息期數必須一致。",
+      "scope_note": "此頁公式涵蓋等額票息與單筆本金的 PV。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    },
+    {
+      "claim_id": "SRC-006-C02",
+      "source_section": "Determining Bond Yield Using an Equation",
+      "concept_tag": "ytm-equation",
+      "paraphrase_zh": "到期殖利率是使未來票息與到期本金現值加總等於市價的折現率，一般需以數值方法求得。",
+      "scope_note": "不得混淆市場價格、票面利率與 YTM。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    }
+  ],
+  "copyright_note": "保存自行改寫筆記，不儲存外部網頁完整正文。"
+}

@@ -1,0 +1,45 @@
+{
+  "verified_on": "2026-11-14",
+  "method": "Public website text viewed using online retrieval; source metadata and own brief conceptual annotations only",
+  "verified_count": 6,
+  "original_full_text_saved": 0,
+  "note": "This is web verification, not direct full-text ingestion. The six curated source-note files previously ingested are distinct from full-text snapshots.",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "checked_concept": "債券基本架構與風險；可供概念頁追溯",
+      "status": "ONLINE_SOURCE_VIEWED_NOT_LOCAL_FULLTEXT"
+    },
+    {
+      "id": "SRC-002",
+      "url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "checked_concept": "票面利率、YTM與溢折價關係；Bonds and Notes",
+      "status": "ONLINE_SOURCE_VIEWED_NOT_LOCAL_FULLTEXT"
+    },
+    {
+      "id": "SRC-003",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+      "checked_concept": "公司債定義、債務人義務與風險",
+      "status": "ONLINE_SOURCE_VIEWED_NOT_LOCAL_FULLTEXT"
+    },
+    {
+      "id": "SRC-004",
+      "url": "https://www.pimco.com/us/en/resources/education/bonds-102-understanding-how-interest-rates-affect-bond-performance",
+      "checked_concept": "殖利率和價格的反向關係、再投資觀點",
+      "status": "ONLINE_SOURCE_VIEWED_NOT_LOCAL_FULLTEXT"
+    },
+    {
+      "id": "SRC-005",
+      "url": "https://www.pimco.com/us/en/resources/education/bonds-102-the-importance-of-duration-in-bond-investing",
+      "checked_concept": "利率敏感度；多以 effective duration 解釋，並非 Modified Duration 直接推導",
+      "status": "ONLINE_SOURCE_VIEWED_NOT_LOCAL_FULLTEXT"
+    },
+    {
+      "id": "SRC-006",
+      "url": "https://openstax.org/books/principles-finance/pages/10-2-bond-valuation",
+      "checked_concept": "債券現金流折現、平價溢價折價及定價案例",
+      "status": "ONLINE_SOURCE_VIEWED_NOT_LOCAL_FULLTEXT"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-004",
+  "source_title": "Bonds 102: Understanding how Interest Rates Affect Bond Performance",
+  "source_url": "https://www.pimco.com/us/en/resources/education/bonds-102-understanding-how-interest-rates-affect-bond-performance",
+  "source_publisher": "PIMCO",
+  "review_date": "2026-11-14",
+  "input_type": "curated_source_notes",
+  "full_original_text_acquired": false,
+  "web_source_checked": true,
+  "claim_records": [
+    {
+      "claim_id": "SRC-004-C01",
+      "source_section": "Why do interest rates affect bonds?",
+      "concept_tag": "inverse-pricing",
+      "paraphrase_zh": "固定收益債券既有票息相對市場新發債券變得不具吸引力時，其二級市場價格會下降；反之，市場利率下降時，較高的既有票息提高其相對價值。",
+      "scope_note": "這是其他條件不變的價格—殖利率關係。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    },
+    {
+      "claim_id": "SRC-004-C02",
+      "source_section": "Are rising rates always bad for bonds?",
+      "concept_tag": "reinvestment",
+      "paraphrase_zh": "升息可能造成既有債券短期價格下跌，但再投資收益率提高，可改變長期持有投資組合的總報酬結果。",
+      "scope_note": "區分價格報酬與再投資報酬，勿斷言升息總是負報酬。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    }
+  ],
+  "copyright_note": "保存自行改寫筆記，不儲存外部網頁完整正文。"
+}

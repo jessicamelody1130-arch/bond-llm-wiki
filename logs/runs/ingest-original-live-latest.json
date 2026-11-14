@@ -1,0 +1,19 @@
+{
+  "run_at": "2026-11-14T09:02:38.042990+00:00",
+  "mode": "live",
+  "source_count": 1,
+  "passed": 0,
+  "required": 1,
+  "original_source_ingested_count": 0,
+  "gate_a_pass": false,
+  "actual_original_ingest_gate_pass": false,
+  "warning": null,
+  "results": [
+    {
+      "id": "SRC-001",
+      "status": "FAIL",
+      "mode": "live",
+      "reason": "ConnectionError: HTTPSConnectionPool(host='www.investor.gov', port=443): Max retries exceeded with url: /introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds (Caused by NameResolutionError(\"HTTPSConnection(host='www.investor.gov', port=443): Failed to resolve 'www.investor.gov' ([Errno -3] Temporary failure in name resolution)\"))"
+    }
+  ]
+}

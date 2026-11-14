@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>numeric-examples | Bond LLM Wiki</title><link rel="stylesheet" href="../../site.css"></head><body><header><a href="../../index.html">專案首頁</a><a href="../../wiki/">Wiki 知識庫</a><a href="../../slides/">HTML 教學簡報</a></header><main><hr />
+<h2>title: &quot;債券定價與利率敏感度範例&quot;
+topic_id: numeric-examples
+status: validated_for_wiki_draft
+source_ids: [SRC-006, SRC-007]
+last_checked_at: &quot;2026-11-14&quot;</h2>
+<h1>債券定價與利率敏感度範例</h1>
+<h2>可重現教學案例（依 Wiki 定價公式自行計算）</h2>
+<p>假設：面額 <code>F=1000</code>；年票面利率 <code>c=4%</code>；年付息 <code>m=1</code>；剩餘 <code>N=5</code> 年；為一般固定票息債券；估值日恰為付息日；無違約與交易成本。</p>
+<ul>
+<li>每年票息 <code>C=40</code>。</li>
+<li>對 <code>y=3%、4%、5%</code> 分別使用 <code>P=sum C/(1+y)^t+F/(1+y)^5</code>，比較債券理論價格。</li>
+<li>對 <code>y=4%</code>，再依 <a href="duration.html">duration</a> 的公式計算 Macaulay Duration、Modified Duration。</li>
+<li>改變 <code>y</code> 時必須固定其他條件，並記錄理論價格與 Duration 的近似誤差。</li>
+</ul>
+<p>數值計算來源：以 [SRC-006: Bond Valuation] 之折現模型及 [SRC-007: Duration measures] 之 Duration 定義為基礎的<strong>自製計算案例</strong>，不是原文給出的相同範例。</p>
+<h2>來源追溯</h2>
+<ul>
+<li><a href="../sources/src-006.html">SRC-006</a></li>
+<li><a href="../sources/src-007.html">SRC-007</a></li>
+</ul>
+</main></body></html>

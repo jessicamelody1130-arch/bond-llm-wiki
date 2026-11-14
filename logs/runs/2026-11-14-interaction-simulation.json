@@ -1,0 +1,63 @@
+{
+  "test_environment": "Node.js isolated DOM simulation, NOT real browser",
+  "checks": [
+    {
+      "name": "initial_slide",
+      "result": "PASS"
+    },
+    {
+      "name": "next_button",
+      "result": "PASS"
+    },
+    {
+      "name": "previous_button",
+      "result": "PASS"
+    },
+    {
+      "name": "right_arrow",
+      "result": "PASS"
+    },
+    {
+      "name": "keyboard_when_button_focused",
+      "result": "PASS"
+    },
+    {
+      "name": "header_hash_navigation",
+      "result": "PASS"
+    },
+    {
+      "name": "direct_fragment_navigation",
+      "result": "PASS"
+    },
+    {
+      "name": "keyboard_ignores_input_focus",
+      "result": "PASS"
+    },
+    {
+      "name": "upper_boundary",
+      "result": "PASS"
+    },
+    {
+      "name": "lower_boundary",
+      "result": "PASS"
+    },
+    {
+      "name": "chart_has_three_points",
+      "result": "PASS"
+    },
+    {
+      "name": "quiz_missing_answers",
+      "result": "PASS"
+    },
+    {
+      "name": "quiz_all_correct",
+      "result": "PASS"
+    },
+    {
+      "name": "quiz_incorrect_answer",
+      "result": "PASS"
+    }
+  ],
+  "passed": 14,
+  "failed": 0
+}

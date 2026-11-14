@@ -1,0 +1,27 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>duration | Bond LLM Wiki</title><link rel="stylesheet" href="../../site.css"></head><body><header><a href="../../index.html">專案首頁</a><a href="../../wiki/">Wiki 知識庫</a><a href="../../slides/">HTML 教學簡報</a></header><main><hr />
+<h2>title: &quot;Macaulay Duration 與 Modified Duration&quot;
+topic_id: duration
+status: validated_for_wiki_draft
+source_ids: [SRC-005, SRC-007]
+last_checked_at: &quot;2026-11-14&quot;</h2>
+<h1>Macaulay Duration 與 Modified Duration</h1>
+<h2>兩種 Duration 不同</h2>
+<ul>
+<li><strong>Macaulay Duration</strong>：將債券現金流的折現值作為權重所計算的加權平均收款時間，通常以「年」表示。[SRC-007: Macaulay duration]</li>
+<li><strong>Modified Duration</strong>：在固定現金流及 YTM 口徑下，衡量價格對殖利率小幅變動的相對敏感度；是一階近似。[SRC-007: Modified duration]</li>
+</ul>
+<p>PIMCO 的 [SRC-005: What is duration?] 常以 <strong>Effective Duration</strong> 說明利率敏感度，不能把它當成 Macaulay Duration 或直接說三者相等。</p>
+<h2>公式</h2>
+<p>假設每年付息 <code>m</code> 次、共有 <code>N</code> 期、每期現金流 <code>CF_t</code>、每期折現率 <code>r=y/m</code>：</p>
+<p><code>P=sum_{t=1}^{N} CF_t/(1+r)^t</code></p>
+<p><code>D_Mac=(1/m)*sum_{t=1}^{N} t*[CF_t/(1+r)^t]/P</code>  （年）</p>
+<p><code>D_Mod=D_Mac/(1+y/m)</code></p>
+<p><code>ΔP/P ≈ -D_Mod*Δy</code> （殖利率變化 <code>Δy</code> 為小數形式的名目年利率變化）。[SRC-007]</p>
+<h2>限制</h2>
+<p>Modified Duration 線性近似在大幅利率變動下偏離真實的非線性價格曲線；若現金流隨利率改變，需考慮其他適用的 duration 度量。[SRC-005: limitations of duration] [SRC-007]</p>
+<h2>來源追溯</h2>
+<ul>
+<li><a href="../sources/src-005.html">SRC-005</a></li>
+<li><a href="../sources/src-007.html">SRC-007</a></li>
+</ul>
+</main></body></html>

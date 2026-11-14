@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>interest-rate-risk | Bond LLM Wiki</title><link rel="stylesheet" href="../../site.css"></head><body><header><a href="../../index.html">專案首頁</a><a href="../../wiki/">Wiki 知識庫</a><a href="../../slides/">HTML 教學簡報</a></header><main><hr />
+<h2>title: &quot;市場殖利率與債券價格&quot;
+topic_id: interest-rate-risk
+status: validated_for_wiki_draft
+source_ids: [SRC-001, SRC-002, SRC-004, SRC-006]
+last_checked_at: &quot;2026-11-14&quot;</h2>
+<h1>市場殖利率與債券價格</h1>
+<h2>為什麼價格反向變動？</h2>
+<p>固定票息債券未來付款不會因市場殖利率立即改變，但市場要求報酬率（折現率）上升時，固定現金流的現值下降，因此理論價格下降；相反亦然。[SRC-004: Why do interest rates affect bonds?] [SRC-006]</p>
+<p>此處的「利率」應精確指用來為這張債券估值的<strong>要求殖利率／折現率</strong>；央行政策利率變動不等於所有債券 YTM 必然一比一變動。</p>
+<h2>可以檢驗的方向</h2>
+<p>在每一期現金流為非負，且至少有一期未來付款為正的簡化固定收益模型中，對折現率提高時價格下降；定價程式可用三組 <code>y</code> 值檢驗單調性。[SRC-006: Bond Valuation]</p>
+<h2>風險限制</h2>
+<p>單張固定票息債券的市值短期會受利率變動影響；但持有期間總報酬也與收取票息及再投資有關，不能把「利率上升造成價格下跌」等同「所有期間投資者都必然虧損」。[SRC-004: Are rising rates always bad for bonds?]</p>
+<h2>來源追溯</h2>
+<ul>
+<li><a href="../sources/src-001.html">SRC-001</a></li>
+<li><a href="../sources/src-002.html">SRC-002</a></li>
+<li><a href="../sources/src-004.html">SRC-004</a></li>
+<li><a href="../sources/src-006.html">SRC-006</a></li>
+</ul>
+</main></body></html>

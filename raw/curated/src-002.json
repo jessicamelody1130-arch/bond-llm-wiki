@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-002",
+  "source_title": "Understanding Pricing and Interest Rates",
+  "source_url": "https://treasurydirect.gov/marketable-securities/understanding-pricing/",
+  "source_publisher": "U.S. Department of the Treasury / TreasuryDirect",
+  "review_date": "2026-11-14",
+  "input_type": "curated_source_notes",
+  "full_original_text_acquired": false,
+  "web_source_checked": true,
+  "claim_records": [
+    {
+      "claim_id": "SRC-002-C01",
+      "source_section": "Bonds and Notes",
+      "concept_tag": "coupon-vs-ytm",
+      "paraphrase_zh": "TreasuryDirect 說明美國公債與中期公債支付固定票息，發行或交易價格可以高於、等於或低於面額，這與殖利率相對票面利率的高低有關。",
+      "scope_note": "此為美國政府證券頁面的敘述，實際付息頻率為每半年一次。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    },
+    {
+      "claim_id": "SRC-002-C02",
+      "source_section": "Bonds and Notes",
+      "concept_tag": "premium-discount",
+      "paraphrase_zh": "當 YTM 高於票面利率時，固定息票債價格低於面額；兩者相同時約等於面額；YTM 較低時價格高於面額。",
+      "scope_note": "成立於標準固定息票、同一殖利率口徑與付息假設下。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    }
+  ],
+  "copyright_note": "保存自行改寫筆記，不儲存外部網頁完整正文。"
+}

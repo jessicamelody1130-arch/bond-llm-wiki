@@ -1,0 +1,59 @@
+{
+  "stage": "curated_source_notes_ingest",
+  "run_date": "2026-11-14",
+  "source_count_passed": 6,
+  "claim_count": 12,
+  "gate_a_local_notes_passed": true,
+  "external_source_retrieval_in_this_run": false,
+  "full_original_text_ingest_count": 0,
+  "checks": [
+    {
+      "source_id": "SRC-001",
+      "status": "PASS",
+      "claim_count": 2,
+      "input_sha256": "a7ce4e76223658067d77d5eb4cebbe34a1d222f25f5bfab4ce9e0381a2c496d8",
+      "output": "sources/ingested/src-001.json"
+    },
+    {
+      "source_id": "SRC-002",
+      "status": "PASS",
+      "claim_count": 2,
+      "input_sha256": "304d05a88ac972a92887661591671a2f9d388ef6210fbeeccff888ea608bca8c",
+      "output": "sources/ingested/src-002.json"
+    },
+    {
+      "source_id": "SRC-003",
+      "status": "PASS",
+      "claim_count": 2,
+      "input_sha256": "127097afd0cb4e4c10de22962ec85937ea4e38af9b6ae6e6e2bf17b498420702",
+      "output": "sources/ingested/src-003.json"
+    },
+    {
+      "source_id": "SRC-004",
+      "status": "PASS",
+      "claim_count": 2,
+      "input_sha256": "d7f341f18731f6e33be3f4cf317216d7b94a0da413c891f57fe681b9f6022845",
+      "output": "sources/ingested/src-004.json"
+    },
+    {
+      "source_id": "SRC-005",
+      "status": "PASS",
+      "claim_count": 2,
+      "input_sha256": "b84e05ba307ae7ed3f1516a8d4ef1615edb5e3436addd0fc92c8eaad2ddcd239",
+      "output": "sources/ingested/src-005.json"
+    },
+    {
+      "source_id": "SRC-006",
+      "status": "PASS",
+      "claim_count": 2,
+      "input_sha256": "dda30156cccef27a20b603f71a473cc92f48b426ceed5036363031c9007da3a8",
+      "output": "sources/ingested/src-006.json"
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Only human-reviewed paraphrase notes were ingested; article full-text retrieval was not completed.",
+    "The local pipeline verifies structural integrity and reproducibility, not full semantic equivalence with all source paragraphs.",
+    "For strict original-text ingest requirement, obtain permitted source texts or OpenStax-licensed fulltext separately."
+  ]
+}

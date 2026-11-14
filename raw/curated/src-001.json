@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-001",
+  "source_title": "Bonds - FAQs",
+  "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+  "source_publisher": "U.S. SEC / Investor.gov",
+  "review_date": "2026-11-14",
+  "input_type": "curated_source_notes",
+  "full_original_text_acquired": false,
+  "web_source_checked": true,
+  "claim_records": [
+    {
+      "claim_id": "SRC-001-C01",
+      "source_section": "What are bonds?",
+      "concept_tag": "bond-definition",
+      "paraphrase_zh": "債券是發行人向投資人借款所發行的債務證券；買進債券通常代表投資人對發行人有債權，而非取得股權。",
+      "scope_note": "債券屬債權工具，需區別於普通股。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    },
+    {
+      "claim_id": "SRC-001-C02",
+      "source_section": "What are the benefits and risks of bonds?",
+      "concept_tag": "bond-risks",
+      "paraphrase_zh": "持有債券仍須承擔發行人違約風險，以及未到期出售時價格受市場利率影響的風險。",
+      "scope_note": "不要把固定利息誤讀成市場價格固定。",
+      "review_type": "editorial_paraphrase_from_public_page"
+    }
+  ],
+  "copyright_note": "保存自行改寫筆記，不儲存外部網頁完整正文。"
+}

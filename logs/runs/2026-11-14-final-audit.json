@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-14",
+  "scope": "final pre-deployment local static, math, index/source and simulated interactive checks",
+  "checks": [
+    {
+      "name": "source_count_at_least_5",
+      "status": "PASS",
+      "detail": "8"
+    },
+    {
+      "name": "source_ids_unique",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-001",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-002",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-003",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-004",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-005",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-006",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-007",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source_index_SRC-008",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slides_count",
+      "status": "PASS",
+      "detail": "10"
+    },
+    {
+      "name": "slide_01_wiki_topics",
+      "status": "PASS",
+      "detail": "bond-basics"
+    },
+    {
+      "name": "slide_01_topic_bond-basics_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_02_wiki_topics",
+      "status": "PASS",
+      "detail": "bond-basics"
+    },
+    {
+      "name": "slide_02_topic_bond-basics_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_03_wiki_topics",
+      "status": "PASS",
+      "detail": "bond-basics,bond-pricing"
+    },
+    {
+      "name": "slide_03_topic_bond-basics_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_03_topic_bond-pricing_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_04_wiki_topics",
+      "status": "PASS",
+      "detail": "bond-pricing"
+    },
+    {
+      "name": "slide_04_topic_bond-pricing_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_05_wiki_topics",
+      "status": "PASS",
+      "detail": "bond-yields"
+    },
+    {
+      "name": "slide_05_topic_bond-yields_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_06_wiki_topics",
+      "status": "PASS",
+      "detail": "interest-rate-risk,bond-pricing"
+    },
+    {
+      "name": "slide_06_topic_interest-rate-risk_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_06_topic_bond-pricing_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_07_wiki_topics",
+      "status": "PASS",
+      "detail": "numeric-examples,bond-pricing"
+    },
+    {
+      "name": "slide_07_topic_numeric-examples_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_07_topic_bond-pricing_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_08_wiki_topics",
+      "status": "PASS",
+      "detail": "duration,numeric-examples"
+    },
+    {
+      "name": "slide_08_topic_duration_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_08_topic_numeric-examples_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_09_wiki_topics",
+      "status": "PASS",
+      "detail": "bond-basics,bond-pricing,bond-yields,duration"
+    },
+    {
+      "name": "slide_09_topic_bond-basics_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_09_topic_bond-pricing_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_09_topic_bond-yields_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_09_topic_duration_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_10_wiki_topics",
+      "status": "PASS",
+      "detail": "bond-basics,bond-pricing,bond-yields,interest-rate-risk,duration,numeric-examples"
+    },
+    {
+      "name": "slide_10_topic_bond-basics_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_10_topic_bond-pricing_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_10_topic_bond-yields_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_10_topic_interest-rate-risk_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_10_topic_duration_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "slide_10_topic_numeric-examples_source_refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "internal_site_links",
+      "status": "PASS",
+      "detail": "101 inspected; missing=[]"
+    },
+    {
+      "name": "bond_price_examples",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "duration_approximation",
+      "status": "PASS",
+      "detail": "Mac=4.629895;Mod=4.451822"
+    },
+    {
+      "name": "javascript_syntax",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "simulated_navigation_and_quiz",
+      "status": "PASS",
+      "detail": "14 simulated tests"
+    }
+  ],
+  "passed": 48,
+  "failed": 0,
+  "limitations": [
+    "Chromium navigation to local file:/// and loopback http:// was blocked by environment administrator (net::ERR_BLOCKED_BY_ADMINISTRATOR); no real browser interaction PASS is claimed.",
+    "Wiki contains structured extracts and paraphrases, not 8 complete ingested full-text documents.",
+    "Source semantic review focused on six teaching themes and specific citation defects, not a line-by-line comparison of all external sources.",
+    "GitHub Pages publication and real public link verification are deferred."
+  ],
+  "original_issues_and_repairs": [
+    "Current Yield assertion formerly lacked direct supporting citation; resolved via new SEC source SRC-008.",
+    "Arrow navigation failed when BUTTON had focus; changed input-focus filter, and 12/12 simulated tests then passed."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-14",
+  "method": "real Chromium headless, synthetic document via set_content and injected local CSS/JS",
+  "limits": "does not test navigation to file://, localhost or deployed GitHub Pages; those URLs are blocked by browser policy",
+  "passed": 19,
+  "total": 19,
+  "checks": [
+    {
+      "check": "initial slide",
+      "pass": true,
+      "observed": "01 / 10",
+      "expected": "01 / 10"
+    },
+    {
+      "check": "initial active slide",
+      "pass": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "check": "previous disabled at start",
+      "pass": true,
+      "observed": "True",
+      "expected": "True"
+    },
+    {
+      "check": "next button",
+      "pass": true,
+      "observed": "02 / 10",
+      "expected": "02 / 10"
+    },
+    {
+      "check": "keyboard right after button focus",
+      "pass": true,
+      "observed": "03 / 10",
+      "expected": "03 / 10"
+    },
+    {
+      "check": "keyboard left",
+      "pass": true,
+      "observed": "02 / 10",
+      "expected": "02 / 10"
+    },
+    {
+      "check": "return-home hash link",
+      "pass": true,
+      "observed": "01 / 10",
+      "expected": "01 / 10"
+    },
+    {
+      "check": "manual hash nav",
+      "pass": true,
+      "observed": "07 / 10",
+      "expected": "07 / 10"
+    },
+    {
+      "check": "SVG curve renders",
+      "pass": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "check": "SVG data markers render",
+      "pass": true,
+      "observed": "3",
+      "expected": "3"
+    },
+    {
+      "check": "next 8",
+      "pass": true,
+      "observed": "08 / 10",
+      "expected": "08 / 10"
+    },
+    {
+      "check": "quiz slide visible",
+      "pass": true,
+      "observed": "09 / 10",
+      "expected": "09 / 10"
+    },
+    {
+      "check": "incomplete quiz message",
+      "pass": true,
+      "observed": "True",
+      "expected": "True"
+    },
+    {
+      "check": "3-of-3 quiz score",
+      "pass": true,
+      "observed": "True",
+      "expected": "True"
+    },
+    {
+      "check": "2-of-3 quiz score",
+      "pass": true,
+      "observed": "True",
+      "expected": "True"
+    },
+    {
+      "check": "last slide",
+      "pass": true,
+      "observed": "10 / 10",
+      "expected": "10 / 10"
+    },
+    {
+      "check": "next disabled at last",
+      "pass": true,
+      "observed": "True",
+      "expected": "True"
+    },
+    {
+      "check": "10 slides exist",
+      "pass": true,
+      "observed": "10",
+      "expected": "10"
+    },
+    {
+      "check": "JS runtime errors",
+      "pass": true,
+      "observed": "0",
+      "expected": "0"
+    }
+  ],
+  "js_errors": []
+}
